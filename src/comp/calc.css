@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
 .calcWrapper {
+    font-family: 'Hubballi', cursive;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,10 +9,20 @@
 
 .inputContainer button,
 .btnContainer button {
+    font-family: 'Hubballi', cursive;
     width: 60px;
     height: 40px;
     font-size: 16px;
     cursor: pointer;
+    background: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+    border-radius: 8px;
+    color: #ffffff;
+    border: none;
+}
+
+.inputContainer button:hover,
+.btnContainer button:hover {
+    background: linear-gradient(92.83deg, #f93a13 0, #ff7426 100%);
 }
 
 .btnContainer button {
@@ -18,8 +30,12 @@
 }
 
 .inputContainer input {
+    font-family: 'Hubballi', cursive;
     width: auto;
     height: 34px;
     margin-right: 8px;
     font-size: 16px;
+    border-radius: 8px;
+    border-color: rgba(255,240,240, 0.7);
 }
+
