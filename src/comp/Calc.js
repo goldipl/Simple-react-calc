@@ -27,12 +27,19 @@ export default function App() {
     setResult(value1 - value2);
   };
 
+  const clear = () => {
+    setResult(InitialValue);
+    setValue1(InitialValue);
+    setValue2(InitialValue);
+  };
+
   return (
     <div>
       <h2>Calculator - ver. 1.0</h2>
       <div className='inputContainer'>
       <input placeholder='Type 1st number' value={value1} onChange={(e) => setValue1(Number(e.target.value))} />
       <input placeholder='Type 2nd number' value={value2} onChange={(e) => setValue2(Number(e.target.value))} />
+      <button onClick={clear}>Clear</button>
       </div>
       <div className='btnContainer'>
         <button onClick={add}>+</button>
