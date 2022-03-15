@@ -29,16 +29,16 @@ export default function App() {
 
   return (
     <div>
-      <h2>Calculator - ver. 0.1</h2>
+      <h2>Calculator - ver. 1.0</h2>
       <div className='inputContainer'>
       <input placeholder='Type 1st number' value={value1} onChange={(e) => setValue1(Number(e.target.value))} />
       <input placeholder='Type 2nd number' value={value2} onChange={(e) => setValue2(Number(e.target.value))} />
       </div>
       <div className='btnContainer'>
-        <button onClick={add}>Add</button>
-        <button onClick={multiply}>Multiply</button>
-        <button onClick={divide}>Divide</button>
-        <button onClick={substract}>Substract</button>
+        <button onClick={add}>+</button>
+        <button onClick={multiply}>•</button>
+        <button onClick={divide}>÷</button>
+        <button onClick={substract}>-</button>
       </div>
       <div className='inputContainer'>
       <input placeholder='result' readOnly value={result}  />
