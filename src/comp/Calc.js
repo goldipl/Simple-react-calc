@@ -49,7 +49,7 @@ export default function App() {
         <button onClick={substract}>-</button>
       </div>
       <div className='inputContainer'>
-      <input placeholder='result' readOnly value={result}  />
+      <input placeholder='Result' readOnly value={result}  />
       </div>
     </div>
   );
