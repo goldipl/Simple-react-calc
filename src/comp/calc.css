@@ -1,0 +1,25 @@
+.calcWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputContainer button,
+.btnContainer button {
+    width: 60px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btnContainer button {
+    margin: 8px 8px;
+}
+
+.inputContainer input {
+    width: auto;
+    height: 34px;
+    margin-right: 8px;
+    font-size: 16px;
+}
