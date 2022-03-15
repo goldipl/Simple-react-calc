@@ -20,7 +20,7 @@ export default function App() {
     if (value2 !== 0) {
       setResult(value1 / value2);
     } else {
-        alert('Nie można dzielić przez zero!');
+        alert('You cannot divide by zero!');
     }
   };
 
