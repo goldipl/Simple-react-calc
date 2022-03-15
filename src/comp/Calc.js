@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './calc.css';
 
 const InitialValue = '';
 
@@ -34,7 +35,7 @@ export default function App() {
   };
 
   return (
-    <div>
+    <div className='calcWrapper'>
       <h2>Calculator - ver. 1.0</h2>
       <div className='inputContainer'>
       <input placeholder='Type 1st number' value={value1} onChange={(e) => setValue1(Number(e.target.value))} />
